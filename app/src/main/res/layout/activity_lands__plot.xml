@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.sell.PropertyForm.forsale_HP">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TYPETL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Type*"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/TYPEETX_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/LISTEDBY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Listed by"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/LISTEDBY_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/PLOTAREA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="SPlot Area*"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/PLOTAREA_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/LENGHT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Length"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/LENGTH_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/BREADTH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Breadth"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/BRADTHETX_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/FACEING_LP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Faceing"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/FACEINGETX_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/PROJECTNAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Project Name"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/PROJECT_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ADTITLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Add Title"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/ADTITLEETX_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/DESCRIPTION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Describe What you are Selling* "
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/DESCRIPTIONETX_FORSALE_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/BTNNEXT_FORSALE_HP"
+            android:background="#B9A6DF"
+            android:textColor="#000"
+            android:text="NEXT"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

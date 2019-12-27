@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.sell.MobilePhoneForm.Accessories_Form">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/TV_ACC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Type*"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/BTNMOB_ACC"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TV_ACC"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20sp"
+            android:text="Mobile" />
+
+        <Button
+            android:id="@+id/BTNTAB_ACC"
+            android:text="Tablets"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TV_ACC"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@id/BTNMOB_ACC" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_below="@id/BTNTAB_ACC"
+            android:id="@+id/ADDTITLE_ACC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Ad title*"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/ADDTITLEETX_ACC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_below="@id/ADDTITLE_ACC"
+            android:id="@+id/DESCRIPTION_ACC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Describe what you are selling*"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+            <EditText
+                android:id="@+id/DESCRIPTIONETX_ACC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_below="@id/DESCRIPTION_ACC"
+            android:id="@+id/BTNNEXT_ACC"
+            android:background="#B9A6DF"
+            android:textColor="#000"
+            android:text="NEXT"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

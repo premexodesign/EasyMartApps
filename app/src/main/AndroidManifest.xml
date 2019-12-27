@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.olx_application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.explore.Properties.Property_FORSALE"></activity>
+        <activity android:name=".ui.explore.Books.books_main" />
+        <activity android:name=".ui.explore.Jobs.jobs_main" />
+        <activity android:name=".ui.explore.Furniture.furniture_main" />
+        <activity android:name=".ui.sell.BooksForm.other_hobies" />
+        <activity android:name=".ui.sell.BooksForm.Sports_Equipment" />
+        <activity android:name=".ui.sell.BooksForm.Musical_Instruments" />
+        <activity android:name=".ui.sell.BooksForm.Gym_Fitness" />
+        <activity android:name=".ui.sell.BooksForm.Books" />
+        <activity android:name=".ui.sell.PropertyForm.PG_Guesthouse" />
+        <activity android:name=".ui.sell.PropertyForm.ForSale_ShopsOffice" />
+        <activity android:name=".ui.sell.PropertyForm.ForRent_ShopOffice" />
+        <activity android:name=".ui.sell.PropertyForm.LANDS_PLOT" />
+        <activity android:name=".ui.sell.PropertyForm.forent_HP" />
+        <activity android:name=".ui.sell.PropertyForm.forsale_HP" />
+        <activity android:name=".ui.sell.FurnitureForm.other_HouseHold" />
+        <activity android:name=".ui.sell.FurnitureForm.KidsFurniture" />
+        <activity android:name=".ui.sell.FurnitureForm.HomeDecore" />
+        <activity android:name=".ui.sell.FurnitureForm.Beds" />
+        <activity android:name=".ui.sell.FurnitureForm.Sofa" />
+        <activity android:name=".ui.sell.ElectronicsForm.washingMatchine" />
+        <activity android:name=".ui.sell.ElectronicsForm.ACs" />
+        <activity android:name=".ui.sell.ElectronicsForm.Harddisk" />
+        <activity android:name=".ui.sell.ElectronicsForm.comAccessories" />
+        <activity android:name=".ui.sell.ElectronicsForm.Fridge" />
+        <activity android:name=".ui.sell.ElectronicsForm.Games" />
+        <activity android:name=".ui.sell.ElectronicsForm.Camera" />
+        <activity android:name=".ui.sell.ElectronicsForm.Compurer_laptops" />
+        <activity android:name=".ui.sell.ElectronicsForm.Kitchen" />
+        <activity android:name=".ui.sell.ElectronicsForm.Tv" />
+        <activity android:name=".ui.sell.BikeForm.Bike_Sparepart_form" />
+        <activity android:name=".ui.sell.BikeForm.Bicycle_Form" />
+        <activity android:name=".ui.sell.Books_SellMain$Bike_Spareparts_Form" />
+        <activity android:name=".ui.sell.BikeForm.Scooter_Form" />
+        <activity android:name=".ui.sell.BikeForm.Motorcycle_Form" />
+        <activity android:name=".ui.sell.MobilePhoneForm.Tablet_Form" />
+        <activity android:name=".ui.sell.MobilePhoneForm.Accessories_Form" />
+        <activity android:name=".ui.sell.MobilePhoneForm.MobilePhone_Form" />
+        <activity android:name=".ui.sell.CarForm.SpareParts_Form" />
+        <activity android:name=".ui.sell.CarForm.form_car" />
+        <activity android:name=".ui.sell.Books_SellMain" />
+        <activity android:name=".ui.sell.Property_SellMain" />
+        <activity android:name=".ui.sell.Furniture_SelMain" />
+        <activity android:name=".ui.sell.Electronic_SellMain" />
+        <activity android:name=".ui.sell.Bike_SellMain" />
+        <activity android:name=".ui.sell.Mobile_SellMain" />
+        <activity android:name=".ui.sell.rowSell_Mobile" />
+        <activity android:name=".ui.sell.Car_SellMain" />
+        <activity android:name=".ui.explore.Fashion.fashion_main" />
+        <activity android:name=".ui.explore.Bikes.bike_main" />
+        <activity android:name=".ui.explore.Mobiles.mobile_main" />
+        <activity android:name=".clothes_main" />
+        <activity android:name=".ui.explore.Cars.car_main" />
+        <activity android:name=".ui.explore.Properties.property_main" />
+        <activity android:name=".ui.explore.Electronics.electronic_main" />
+        <activity android:name=".electronic_Main.electronic_Category" />
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".signup" />
+        <activity android:name=".forgotpassword" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

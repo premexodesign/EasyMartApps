@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:background="?attr/colorPrimary"-->
+<!--        android:minHeight="?attr/actionBarSize"-->
+<!--        android:theme="?attr/actionBarTheme"-->
+<!--        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+<!--        app:theme="@style/ThemeOverlay.AppCompat.Dark"-->
+<!--        android:id="@+id/TOOLBAR"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/TABLAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:background="#A18DCC"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/black">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/TABALL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALL" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/BUYINGTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUYING" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/TABSLLING"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELLING" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/VIEWPAGER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".favourite_fragment">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+     <ImageView
+        android:src="@drawable/favouriteimage"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="100dp"
+         android:id="@+id/IMGVIEW1"
+         android:layout_width="200dp"
+         android:layout_height="200dp" />
+
+     <TextView
+         android:id="@+id/TXT1"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:layout_marginLeft="90dp"
+         android:layout_marginTop="18dp"
+         android:layout_below="@id/IMGVIEW1"
+         android:text="You haven't liked anything yet"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+
+     <TextView
+         android:id="@+id/TXT2"
+         android:textSize="15sp"
+         android:layout_marginLeft="100dp"
+         android:layout_marginTop="22dp"
+         android:layout_below="@id/TXT1"
+         android:text="Collect all the thiongd"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+
+     <TextView
+         android:id="@+id/TXT3"
+         android:textSize="15sp"
+         android:layout_marginLeft="100dp"
+         android:layout_below="@id/TXT2"
+         android:text="You like in one place"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+
+     <Button
+         android:textColor="#FDFCFC"
+         android:background="#897CF3"
+         android:textSize="22sp"
+         android:text="DISCOVER"
+         android:id="@+id/BTNDISCOVER"
+         android:layout_width="224dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/TXT3"
+         android:layout_marginLeft="90dp"
+         android:layout_marginTop="20dp" />
+
+ </RelativeLayout>
+
+</FrameLayout>

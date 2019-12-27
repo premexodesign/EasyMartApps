@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.sell.BikeForm.Motorcycle_Form">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/BRANDNAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Brand*"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp">
+
+        <EditText
+            android:id="@+id/BRANDETX_MC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/YEAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Year*"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp">
+
+        <EditText
+            android:id="@+id/YEARETX_MC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/KMDRIVEN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="KM driven*"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp">
+
+        <EditText
+            android:id="@+id/KMDRIVENETX_MC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ADDTITLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Ad title*"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp">
+
+        <EditText
+            android:id="@+id/ADDTITLEETX_MC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/DESCRIPTION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Describe what you are selling*"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp">
+
+        <EditText
+            android:id="@+id/DESCRIPTIONETX_MC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/BTNNEXT_MC"
+        android:background="#B9A6DF"
+        android:textColor="#000"
+        android:text="NEXT"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

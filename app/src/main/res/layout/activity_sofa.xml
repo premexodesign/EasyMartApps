@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.sell.FurnitureForm.Sofa">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ADTITLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Ad Title*"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp">
+
+        <EditText
+            android:id="@+id/ADTITLEETX_SOFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/DeSCRIPTION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Describe what you are sellin*"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp">
+
+        <EditText
+            android:id="@+id/DESCRIPTIONETX_SOFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/BUTTONNEXT_SOFA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="#B799F3"
+        android:text="NEXT"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:background="#F7F2F2"
+    android:id="@+id/CATEGORYLL"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/IMGMYGRIDVIEW"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/TITLEMYGRIDVIEW"
+        android:text="title"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

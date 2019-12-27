@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".All_Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <TextView
+       android:layout_marginLeft="150dp"
+       android:layout_marginTop="10dp"
+       android:text="No message, Yet?"
+       android:id="@+id/TXTMSG"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/CHATIMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TXTMSG"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/chatimage" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/CHATIMG"
+            android:text="We'll keep message for any iems you're trying to buy in here"
+            android:id="@+id/TXTMSG2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/BUTTON"
+            android:textStyle="bold"
+            android:textColor="#F7F3F3"
+            android:text="EXPLORE THE LATEST ADS"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/TXTMSG2"
+            android:background="#897CF3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
